@@ -1,0 +1,32 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc IDE and OS files
+.DS_Store
+.fleet
+.idea
+.vscode/
+
+# Local env files (SECURITY)
+.env
+.env.*
+!.env.example
+
+# PRISMA ARTIFACTS
+/node_modules/.prisma/
+
+.prisma/
+
+db_data/
